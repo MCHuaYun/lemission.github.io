@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./assets/css/index.css">
     <!-- <link rel="stylesheet" href="/assets/css/detaile.css"> -->
     <link rel="stylesheet" href="./assets/css/1.css">
+    <link rel="icon" href="./assets/img/background.jpg"> 
     <link rel="icon" href="./assets/img/logo.jpg">
     <!-- Global site tag (gtag.js) - Google Analytics -->
    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162013750-5"></script>
@@ -73,7 +74,24 @@
             <div class="mdui-card rin-card">
 <!--                <div class="rin-card-title">关于我</div>-->
                 <div class="rin-card-part" id="introduce" style="margin-top: 0;">
-                    <div class="rin-card-content mdui-typo">你好，这里是邻米讯的“官方”宣传网站<br>
+                    <div class="rin-card-content mdui-typo">你好，</div>
+			<div class="meBox-text">
+                <p id="ymd"></p>
+                    <script>
+                        var date = new Date()<!--获得日期数据-->
+                        var y = date.getFullYear();<!--年-->
+                        var m = date.getMonth()+1;<!--月，这里的月份必须要+1才是当前月份-->
+                        var d = date.getDate(); <!--日，getDay是获得当前星期几（0-6），getDate是获得当前日期-->
+                        document.getElementById("ymd").innerHTML = "Today is:"+y+"/"+m+"/"+d;
+                    </script>
+                    <script type="text/javascript" src="dtxt1.js"></script>
+		    <p>Welcome to MC HuaYun's website</p>
+				<br>
+				<br />
+				<br>
+				</div>
+        </div>
+			<div class="rin-card-content mdui-typo">这里是邻米讯的“官方”宣传网站<br>
                         坐标深圳高一在读STU，欢迎进行建议及观看相关内容<br>
                         <br />本网站仅为宣传作用，无其他使用途径，若需联系相关人员，回国内查询即可<br>
                         <!-- 更多关于咱的信息请<a href="https://boblive.vercel.app/README.md" target="_blank" class="">点击这里</a><br> --><br>
