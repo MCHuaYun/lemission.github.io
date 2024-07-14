@@ -21,7 +21,7 @@ body {
     background-attachment: fixed;
     background-position: 50% 50%;
     background-color: #818181;
-    background-image: url('https://szlhfls.vercel.app/img/background.jpg');
+    background-image: url('https://lemission-github-io.vercel.app/assets/img/bg.jpg');
 }
 #rin-bg:after {
     top: 0;
